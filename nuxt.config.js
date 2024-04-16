@@ -16,6 +16,7 @@ export default {
     ]
   },
 ssr: false,
+target: 'static',
   mode: 'spa',
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: ['~/assets/style/index.css'],
@@ -45,8 +46,7 @@ ssr: false,
   },
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
-    'nuxt-leaflet',
-    '@nuxtjs/pwa'
+    'nuxt-leaflet'
   ],
   leaflet: {
     icon: true,
@@ -62,35 +62,6 @@ ssr: false,
       }
     }
   ],
-  pwa: {
-    manifest: {
-      name: 'Map',
-      short_name: 'Map',
-      lang: 'en',
-      start_url: '/',
-      display: 'standalone',
-      background_color: '#fff',
-      theme_color: '#000',
-      screenshots: [
-        {
-          src: '/screenshots/screenshot-1.png',
-          sizes: '320x640',
-          type: 'image/png',
-          platform: 'web'
-        }
-      ]
-    },
-    icon: {
-      fileName: "v.png",
-      sizes: [64, 120, 144, 152, 192, 384, 512]
-    },
-    meta: {
-      title: "Map Poltava"
-    },
-    workbox: {
-      // Configure Workbox as needed
-    }
-  },
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {}
 }
