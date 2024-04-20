@@ -17,7 +17,10 @@ export default {
   },
   ssr: false,
   target: 'static',
-  mode: 'spa',
+ // mode: 'spa',
+  generate: {
+    dir: 'docs'
+  },
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: ['~/assets/style/index.css'],
 
@@ -39,7 +42,7 @@ export default {
   },
   server: {
     host: '0.0.0.0',
-    port: 3000,
+    port: 3020,
     timing: {
       total: true
     }
