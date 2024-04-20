@@ -21,6 +21,9 @@ export default {
   generate: {
     dir: 'docs'
   },
+  static: {
+    prefix: true
+  },
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: ['~/assets/style/index.css'],
 
