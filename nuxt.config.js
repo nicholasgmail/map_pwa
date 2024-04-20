@@ -12,12 +12,25 @@ export default {
       { name: 'format-detection', content: 'telephone=no' }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/icon.ico' }
+      { rel: 'icon', type: 'image/x-icon', href: '/icon.ico' },
+      { rel: 'styleshit', href: '//unpkg.com/leaflet/dist/leaflet.css' }
+    ],
+    script: [
+      {
+        src:
+          '//unpkg.com/leaflet/dist/leaflet.js',
+        body: true
+      },
+      {
+        src:
+          '//unpkg.com/vue2-leaflet',
+        body: true
+      }
     ]
   },
   ssr: false,
   target: 'static',
- // mode: 'spa',
+  // mode: 'spa',
   generate: {
     dir: 'docs'
   },
