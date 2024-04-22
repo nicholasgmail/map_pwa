@@ -31,9 +31,9 @@ export default {
   ssr: false,
   target: 'static',
   // mode: 'spa',
-  generate: {
-    dir: 'docs'
-  },
+ // generate: {
+ //   dir: 'docs'
+ // },
   static: {
     prefix: true
   },
