@@ -34,14 +34,14 @@
         "name": "How's the weather today?",
         "short_name": "Today",
         "description": "View weather information for today",
-        "url": "/map_pwa/image/today?source=pwa",
+        "url": "/map_pwa/image/today.png?source=pwa",
         "icons": [{ "src": "/map_pwa/image/today.png", "sizes": "192x192" }]
       },
       {
         "name": "How's the weather tomorrow?",
         "short_name": "Tomorrow",
         "description": "View weather information for tomorrow",
-        "url": "/map_pwa/image/tomorrow?source=pwa",
+        "url": "/map_pwa/image/tomorrow.png?source=pwa",
         "icons": [{ "src": "/map_pwa/image/tomorrow.png", "sizes": "192x192" }]
       }
     ],
