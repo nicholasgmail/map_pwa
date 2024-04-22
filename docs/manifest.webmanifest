@@ -3,22 +3,22 @@
     "name": "Weather: Do I need an umbrella?",
     "icons": [
         {
-            "src": "./image/icons/icon_64x64.png",
+            "src": "/map_pwa/image/icons/icon_64x64.png",
             "sizes": "64x64",
             "type": "image/png"
         },
         {
-            "src": "./image/icons/icon_144x144.png",
+            "src": "/map_pwa/image/icons/icon_144x144.png",
             "sizes": "144x144",
             "type": "image/png"
         },
         {
-            "src": "./image/icons/icon_192x192.png",
+            "src": "/map_pwa/image/icons/icon_192x192.png",
             "sizes": "192x192",
             "type": "image/png"
         },
         {
-            "src": "./image/icons/icon_512x512.png",
+            "src": "/map_pwa/image/icons/icon_512x512.png",
             "sizes": "512x512",
             "type": "image/png"
         }
@@ -35,26 +35,26 @@
         "short_name": "Today",
         "description": "View weather information for today",
         "url": "/today?source=pwa",
-        "icons": [{ "src": "./image/today.png", "sizes": "192x192" }]
+        "icons": [{ "src": "/map_pwa/image/today.png", "sizes": "192x192" }]
       },
       {
         "name": "How's the weather tomorrow?",
         "short_name": "Tomorrow",
         "description": "View weather information for tomorrow",
         "url": "/tomorrow?source=pwa",
-        "icons": [{ "src": "./image/tomorrow.png", "sizes": "192x192" }]
+        "icons": [{ "src": "/map_pwa/image/tomorrow.png", "sizes": "192x192" }]
       }
     ],
     "description": "Weather forecast information",
     "screenshots": [
       {
-        "src": "./image/screenshots/screenshot1.png",
+        "src": "/map_pwa/image/screenshots/screenshot1.png",
         "type": "image/png",
         "sizes": "540x720",
         "form_factor": "narrow"
       },
       {
-        "src": "./image/screenshots/screenshot2.jpg",
+        "src": "/map_pwa/image/screenshots/screenshot2.jpg",
         "type": "image/jpg",
         "sizes": "720x540",
         "form_factor": "wide"
