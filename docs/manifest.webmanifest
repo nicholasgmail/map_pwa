@@ -54,8 +54,8 @@
         "form_factor": "narrow"
       },
       {
-        "src": "/map_pwa/image/screenshots/screenshot2.jpg",
-        "type": "image/jpg",
+        "src": "/map_pwa/image/screenshots/screenshot2.png",
+        "type": "image/png",
         "sizes": "720x540",
         "form_factor": "wide"
       }
