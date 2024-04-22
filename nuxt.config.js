@@ -13,17 +13,17 @@ export default {
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/icon.ico' },
-      { rel: 'styleshit', href: '//unpkg.com/leaflet/dist/leaflet.css' }
+      { rel: 'styleshit', href: 'https://unpkg.com/leaflet/dist/leaflet.css' }
     ],
     script: [
       {
         src:
-          '//unpkg.com/leaflet/dist/leaflet.js',
+          'https://unpkg.com/leaflet/dist/leaflet.js',
         body: true
       },
       {
         src:
-          '//unpkg.com/vue2-leaflet',
+          'https://unpkg.com/vue2-leaflet',
         body: true
       }
     ]
