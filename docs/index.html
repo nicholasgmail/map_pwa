@@ -45,7 +45,6 @@
     });
   </script>
   <script>
-    if ('serviceWorker' in navigator) {
       window.addEventListener('load', () => {
         navigator.serviceWorker.register('/sw.js')
           .then(registration => {
@@ -55,7 +54,6 @@
             console.error('Service worker registration failed:', error);
           });
       });
-    }
   </script>
 </body>
 
