@@ -23,8 +23,8 @@
             "type": "image/png"
         }
     ],
-    "id": "/?source=pwa",
-    "start_url": "/?source=pwa",
+    "id": "/map_pwa/?source=pwa",
+    "start_url": "/map_pwa/?source=pwa",
     "background_color": "#3367D6",
     "display": "standalone",
     "scope": "/",
